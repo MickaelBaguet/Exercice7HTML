@@ -1,0 +1,20 @@
+#bleu
+{
+  background-color: #2574A9;
+}
+
+#violet
+{
+  background-color: #9A12B3;
+}
+
+#magenta
+{
+  background-color: #DB0A5B;
+}
+
+/* Si on veux changer la couleur du bouton (rajouter id="bouton" sur le bouton) */
+/* #bouton
+{
+  color: grey;
+} */
