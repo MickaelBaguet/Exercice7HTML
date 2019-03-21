@@ -2,7 +2,7 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="exercice7.css">
+    <link rel="stylesheet" href="style.css">
     <title>Exercice 7</title>
   </head>
   <body>
@@ -23,7 +23,7 @@
           </li>
           <li>
             <label>Adresse mail :</label>
-            <input type="text" name="admail" placeholder="Adresse mail">
+            <input type="email" name="admail" placeholder="Adresse mail">
           </li>
         </ol>
       </fieldset>
@@ -37,7 +37,7 @@
           </li>
           <li>
             <label>Code postal :</label>
-            <input type="text" name="size" placeholder="Code postal">
+            <input type="text" name="size" placeholder="Code postal" maxlength="5" pattern="[0-9]{5}" >
           </li>
           <li>
             <label>Ville :</label>
@@ -62,11 +62,11 @@
           </li>
           <li>
             <label>Numéro de carte :</label>
-            <input type="text" name="size" placeholder="Numéro de carte">
+            <input type="text" name="size" placeholder="Numéro de carte" maxlength="16" pattern="[0-9]{16}">
           </li>
           <li>
             <label>Code de sécurité :</label>
-            <input type="text" name="size" placeholder="Code de sécurité">
+            <input type="text" name="size" placeholder="Code de sécurité" maxlength="3" pattern="[0-9]{3}">
           </li>
           <li>
             <label>Nom du titulaire :</label>
