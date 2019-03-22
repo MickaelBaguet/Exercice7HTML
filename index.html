@@ -6,8 +6,8 @@
     <title>Exercice 7</title>
   </head>
   <body>
-    <form>
-
+    <!-- "action" permet de mettre une page après validation -->
+    <form action="page2.html" method="get">
       <!-- fieldset permet de diviser le formulaire -->
       <fieldset id="bleu">
         <legend id="bleu">Votre identité</legend>
@@ -33,7 +33,7 @@
         <ol>
           <li>
             <label>Adresse :</label>
-            <textarea name="adresse" id="adresse" rows="4" cols="15"></textarea>
+            <textarea name="adresse" id="adresse" rows="5" cols="10"></textarea>
           </li>
           <li>
             <label>Code postal :</label>
@@ -74,9 +74,9 @@
           </li>
         </ol>
       </fieldset>
+      <!-- Mettre un type "submit" et non "button" pour le formulaire -->
+      <input type="submit" value="J'achète !"/>
 
-      <input type="button" value="J'achète !"/>
-
-</form>
+    </form>
   </body>
 </html>
